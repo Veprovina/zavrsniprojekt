@@ -1,0 +1,266 @@
+.header {
+	height: 850px;
+	background: url('img/header_bg.jpg') no-repeat;
+	background-size: cover;
+}
+.header a {
+	font-size: 24pt;
+	color: #ffff;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: block;
+	text-transform: uppercase;
+    font-family: 'Dhurjati', sans-serif;
+}
+.header p {
+	font-size: 42pt;
+	text-align: center;
+	color: #ffff;
+	margin-top: 150px;
+	text-transform: lowercase;
+	font-family: 'Lobster', cursive;
+}
+
+.main-menu {
+	width: 100%;
+	background-color: #A5D6A7;
+}
+.main-menu li {
+	display: inline-block;
+	height: 100px;
+	transition: 3s;
+	font-family: 'Lobster', cursive;
+}
+.main-menu li a {
+	color: #000;
+	font-size: 18pt;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 100px;
+	display: block;
+}
+.main-menu li:hover {
+	background-color: #EB5757;
+}
+.main-menu li:hover a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.video {
+	padding-bottom: 5px;
+}
+.video p {
+	color: #ffff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.video h1 {
+	color: #ffff;
+	font-family: 'Dhurjati', sans-serif;
+}
+
+.gallery img {
+	width: 100%;	
+}
+
+.gallery div {
+	padding: 0;
+}
+
+.about-me h1 {
+	color: #ffff;
+	font-family: 'Dhurjati', sans-serif;
+}
+
+.about-me p {
+	color: #ffff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section h1 {
+	color: #ffff;
+	font-family: 'Dhurjati', sans-serif;
+}
+
+.section p {
+	color: #ffff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000;
+}
+
+.image-container:hover .overlay {
+	opacity: 0.7;
+}
+
+.image-container:hover img {
+	filter: blur (3px)
+}
+
+.overlay p {
+	color: #fff;
+	font-size: 18pt;
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	transform: translate (-50%, -50%);
+}
+.overlay a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.contact-form {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #A5D6A7;
+	padding-left: 100px;
+	padding-right: 100px;
+	/* može i padding: 100px; pa sa sve strane radi padding */
+}
+
+.contact-form  h1 {
+	font-size: 24pt;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+}
+
+.form-control {
+	height: 45px;
+	border-radius: 0;
+	border: 1px solid #000;
+}
+
+.form-control::placeholder {
+	color: #000;
+}
+
+.razmak {
+	padding-bottom: 25px;
+}
+
+.btn {
+	transition: 0.9px;
+	padding: 15px 25px;
+	background-color: purple;
+	color: #fff;
+	border-radius: 0;
+}
+
+.btn:hover {
+	padding: 15px 25px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 0;
+}
+
+.btn-default {
+	border: 0;
+}
+
+.footer {
+	height: 200px;
+	background: url('img/footer_lodyas.png') no-repeat;
+	background-size: cover;	
+}
+
+.footer ul {
+	margin-top: 150px;
+	float: right;
+}
+
+.footer ul li {
+	display: inline-block;
+}
+
+.footer ul li a {
+	color: #fff;
+	font-size: 18pt;
+	font-family: 'Lobster', cursive;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: block;
+}
+
+body {
+	background: url('img/binding_dark.png');
+}
+
+.container {
+	opacity: 0.9;
+}
+
+.drustvene-mreze div {
+	height: 250px;
+	font-size: 72pt;
+}
+
+.drustvene-mreze h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #FFF;
+	text-align: center;
+	text-transform: lowercase;
+	font-family: 'Lobster', cursive;
+}
+
+.drustvene-mreze {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.drustvene-mreze p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.light-bg {
+	background-color: #F0F0F0;
+}
+
+.dark-bg {
+	background-color: #D0D0D0;
+}
+
+.naslov {
+	padding-left: 20px;
+	font-family: 'Lobster', cursive;
+	font-size: 20pt;
+	color: #ffff;
+}	
+
+.square-blocks div {
+	height: 250px;
+}
+.square-blocks .light-gray-bg {
+	background-color: #F0F0F0;
+}
+.square-blocks .dark-gray-bg {
+	background-color: #E0E0E0;
+}
+.section h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.square-blocks p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 33pt;
+}
